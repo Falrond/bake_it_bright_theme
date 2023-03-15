@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Google fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Remix icons -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <!-- Swiper.js styles -->
+    <link rel="stylesheet" href="/assets//css/swiper-bundle.min.css" />
+    <!-- Custom styles -->
+    <link rel="stylesheet" href="/assets/css/style.css" />
+    <title>Bake it Bright</title>
+  </head>
+  <body class="">
+    <!-- Header -->
+    <header class="header" id="header">
+      <nav class="navbar container">
+        <a href="index.html">
+          <h2 class="logo">Bake it Bright</h2>
+        </a>
+        <div class="menu" id="menu">
+          <ul class="list">
+            <li class="list-item">
+              <a href="" class="list-link current">Strona główna</a>
+            </li>
+            <li class="list-item">
+              <a href="" class="list-link">Przepisy</a>
+            </li>
+            <li class="list-item">
+              <a href="" class="list-link">O mnie</a>
+            </li>
+            <li class="list-item">
+              <a href="" class="list-link">Kontakt</a>
+            </li>
+            <li class="list-item screen-lg-hidden">
+              <a href="" class="list-link">Zaloguj się</a>
+            </li>
+            <li class="list-item screen-lg-hidden">
+              <a href="" class="list-link">Zarejestruj się</a>
+            </li>
+          </ul>
+        </div>
+        <div class="list list-right">
+          <button class="btn place-items-center" id="theme-toggle-btn">
+            <i class="ri-sun-line sun-icon"></i>
+            <i class="ri-moon-line moon-icon"></i>
+          </button>
+          <button class="btn place-items-center" id="search-icon">
+            <i class="ri-search-line"></i>
+          </button>
+          <button
+            class="btn place-items-center screen-lg-hidden menu-toggle-icon"
+            id="menu-toggle-icon"
+          >
+            <i class="ri-menu-3-line open-menu-icon"></i>
+            <i class="ri-close-line close-menu-icon"></i>
+          </button>
+          <a href="" class="list-link screen-sm-hidden">Zaloguj się</a>
+          <a
+            href=""
+            class="list-link screen-sm-hidden btn sing-up-btn fancy-border"
+            ><span>Zarejestruj się</span>
+          </a>
+        </div>
+      </nav>
+    </header>
+    <!-- Search -->
+    <div class="search-form-container container" id="search-form-container">
+      <div class="form-container-inner">
+        <form action="" class="form">
+          <input type="text" class="form-input" placeholder="Czego szukasz?" />
+          <button class="btn form-btn place-items-center" type="submit">
+            <i class="ri-search-line"></i>
+          </button>
+        </form>
+        <!-- <span class="form-note">Naciśnij ESC aby zamknąć.</span> -->
+      </div>
+      <button class="btn form-close-btn place-items-center" id="form-close-btn">
+        <i class="ri-close-line"></i>
+      </button>
+    </div>
+    <!-- Featured articles -->
+    <section class="featured-articles section-header-offset">
+      <div class="featured-articles-container container d-grid">
+        <div class="featured-content d-grid">
+          <!-- --------------------- -->
+          <div class="headline-banner">
+            <h3 class="headline fancy-border">
+              <span class="place-items-center">Ostatnio dodane</span>
+            </h3>
+            <!-- <span class="headline-description"
+              >Apple announces a new partnership...</span
+            > -->
+          </div>
+          <!-- --------------------- -->
+          <a
+            href="/.post.html"
+            class="article featured-article featured-article-1"
+          >
+            <img src="./assets/img/10.jpg" alt="" class="article-image" />
+            <span class="article-category">Ciasta i ciasteczka</span>
+            <div class="article-data-container">
+              <div class="article-data">
+                <span>04.10.2022</span>
+                <span class="article-data-spacer"></span>
+                <span class="time"><i class="ri-time-line"></i>15 min.</span>
+              </div>
+              <h3 class="title article-title">Ciasteczka z czekoladą</h3>
+            </div>
+          </a>
+          <a
+            href="/.post.html"
+            class="article featured-article featured-article-1"
+          >
+            <img src="./assets/img/3.jpg" alt="" class="article-image" />
+            <span class="article-category">Omlety</span>
+            <div class="article-data-container">
+              <div class="article-data">
+                <span>04.01.2023</span>
+                <span class="article-data-spacer"></span>
+                <span class="time"><i class="ri-time-line"></i>15 min.</span>
+              </div>
+              <h3 class="title article-title">Omlet z gruszką</h3>
+            </div>
+          </a>
+          <a
+            href="/.post.html"
+            class="article featured-article featured-article-1"
+          >
+            <img src="./assets/img/6.jpg" alt="" class="article-image" />
+            <span class="article-category">Serniki</span>
+            <div class="article-data-container">
+              <div class="article-data">
+                <span>04.07.2022</span>
+                <span class="article-data-spacer"></span>
+                <span class="time"><i class="ri-time-line"></i>120 min.</span>
+              </div>
+              <h3 class="title article-title">Sernik z brzoskwiniami</h3>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <a href="#" class="scroll-top"><i class="ri-arrow-up-line"></i></a>
+
+    <script src="/assets/js/swiper-bundle.min.js"></script>
+    <script src="/assets/js/script.js"></script>
+  </body>
+</html>

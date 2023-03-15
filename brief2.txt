@@ -1,0 +1,36 @@
+Oczywiście, przedstawiam kilka zestawów kolorystycznych oraz fontów, które dobrze mogłyby wyglądać na stronie internetowej "Bake it Bright":
+
+    Zestaw kolorystyczny:
+
+    główny kolor: różowy pastelowy (#F3B2B7)
+    dodatkowe kolory: szary (#C4C4C4), biały (#FFFFFF), zielony jasny (#B5EAD7)
+    akcentowy kolor: czerwony (#E84545)
+
+Fonty:
+
+    główny font: Montserrat
+    font akcentowy: Indie Flower
+
+    Zestaw kolorystyczny:
+
+    główny kolor: żółty jasny (#FDFD96)
+    dodatkowe kolory: biały (#FFFFFF), szary (#C4C4C4), niebieski jasny (#B4DCE7)
+    akcentowy kolor: czerwony ciemny (#C70039)
+
+Fonty:
+
+    główny font: Open Sans
+    font akcentowy: Lobster
+
+    Zestaw kolorystyczny:
+
+    główny kolor: fioletowy ciemny (#5B2C6F)
+    dodatkowe kolory: biały (#FFFFFF), różowy jasny (#FFB6C1), szary jasny (#D3D3D3)
+    akcentowy kolor: zielony jasny (#C5E5A5)
+
+Fonty:
+
+    główny font: Lato
+    font akcentowy: Pacifico
+
+Pamiętaj, że dobór kolorów i fontów powinien zależeć od osobistych preferencji i stylu, jaki chcesz przekazać na swojej stronie. Przed ostatecznym wyborem koniecznie przetestuj je, aby upewnić się, że wyglądają dobrze w połączeniu z treścią Twojego bloga.
