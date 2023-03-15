@@ -226,6 +226,11 @@ btn:hover span {
 
 .header.activated {
   /* box-shadow: 0 1px 0.5rem var(--transparent-light-color); */
+  background-color: rgba(37, 40, 48, 0.95);
+}
+
+body.light-theme .header.activated {
+  /* box-shadow: 0 1px 0.5rem var(--transparent-light-color); */
   background-color: rgba(242, 224, 213, 0.95);
 }
 
@@ -401,6 +406,7 @@ btn:hover span {
   right: 1rem;
   padding: 1rem;
   font-size: 1rem;
+  border-radius: 5px;
   background-color: var(--primary-background-color);
   color: var(--light-color);
   font-weight: 700;
