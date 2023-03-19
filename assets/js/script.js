@@ -20,15 +20,20 @@ const scrollHeader = () => {
 window.addEventListener("scroll", scrollHeader);
 
 // Open menu & search pop-up
-const menuToggleIcon = selectElement("#menu-toggle-icon");
+// const menuToggleIcon = selectElement("#menu-toggle-icon");
 
 const toggleMenu = () => {
   const mobileMenu = selectElement("#menu");
   mobileMenu.classList.toggle("activated");
-  menuToggleIcon.classList.toggle("activated");
+  // menuToggleIcon.classList.toggle("activated");
+  navbarToggle.classList.toggle("active");
 };
 
-menuToggleIcon.addEventListener("click", toggleMenu);
+// menuToggleIcon.addEventListener("click", toggleMenu);
+
+const navbarToggle = document.querySelector(".navbar-toggle");
+
+navbarToggle.addEventListener("click", toggleMenu);
 
 /**
  * Scroll top button
